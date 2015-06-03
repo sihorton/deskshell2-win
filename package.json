@@ -1,8 +1,9 @@
 {
   "name": "deskshell2-win",
-  "version": "2.0.0",
+  "version": "2.0.8",
   "description": "Deskshell desktop wrapper windows implementation",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,10 @@
     "type": "git",
     "url": "https://github.com/sihorton/deskshell2-win"
   },
+  "files": [
+	"deskshell-node.exe"
+	,"index.js"
+  ],
   "keywords": [
     "deskshell",
     "chrome",
