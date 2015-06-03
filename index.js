@@ -1,8 +1,8 @@
-module.exports = function() {
+module.exports = function(params) {
 	return {
-		launchPortable: function() {
-			var chromePath = __dirname + "/DeskshellChrome/App/Chrome-bin/deskshell-chrome.exe";
-			var appUrl = "http://localhost:80/";
+		launchPortable: function(params) {
+			var chromePath = __dirname + "/GoogleChromePortable/App/Chrome-bin/deskshell-chrome.exe";
+			var appUrl = "http://localhost:80/" + (params.appStart || '');
 			args = [
 				'--app='+appUrl
 				,'--disable-translate'
