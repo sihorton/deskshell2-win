@@ -1,0 +1,25 @@
+{
+  "name": "deskshell2-win",
+  "version": "2.0.0",
+  "description": "Deskshell desktop wrapper windows implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sihorton/deskshell2-win"
+  },
+  "keywords": [
+    "deskshell",
+    "chrome",
+    "desktop",
+    "html5"
+  ],
+  "author": "Simon Horton <sij.horton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sihorton/deskshell2-win/issues"
+  },
+  "homepage": "https://github.com/sihorton/deskshell2-win"
+}
